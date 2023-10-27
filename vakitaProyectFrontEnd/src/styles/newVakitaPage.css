@@ -1,0 +1,580 @@
+.containerPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background: linear-gradient(0deg, #EEE9FF 6%, #FCE8E9 91%);
+    height: auto !important;
+   
+
+
+}
+
+.boxItems {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem 0px;
+    margin-top: 10px;
+
+
+}
+
+.halfBackground {
+    padding:30px;
+    background-color: #FFFFFF;
+    margin: 0rem -2.5%;
+    margin-bottom: -1.8%;
+}
+
+.title {
+    width: 90%;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+    font-size: 1em;
+    text-align: left;
+    margin-top: 3rem;
+    font-weight: bolder;
+}
+
+
+
+/**Form**/
+.error {
+
+    /* font-size: 13px;
+    font-style: italic;
+    font-weight: 600;
+    color: red;
+    margin-top: -5px;
+    margin-bottom: 0.8rem; */
+    display: flex;
+    color: red;
+    margin-top: 2px;
+    width: 90%;
+    font-size: 14px;
+    margin-left: 1px;
+}
+
+form {
+    width: 20rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    /* background-color:#CCC3C3; */
+    margin-bottom: 1rem;
+
+}
+
+form label {
+    width: 72px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.inputText,
+.inputNumber,
+.inputDate,
+.inputEmail,
+.inputDescription {
+    height: 35px;
+    width: 90%;
+    border-radius: 10px;
+    background-color: white;
+    outline: none;
+    border: none !important;
+    margin: 0 auto;
+    padding: 2px;
+    font-size: 15px;
+    margin-top: 4px !important;
+    text-indent: 10px !important;
+
+
+
+}
+
+.inputText::placeholder,
+.inputNumber::placeholder,
+.inputDate::placeholder,
+.inputEmail::placeholder,
+.inputDescription::placeholder {
+    color: #5E5E5E;
+    /* Cambia el color del placeholder al que desees (en este caso, verde) */
+    text-indent: 10px;
+}
+
+
+label.labelDate {
+    margin-left: 3%;
+    color: #54848D;
+
+}
+
+/* la card del lado derecho*/
+.inputEmail {
+    background-color: #E4E4E4;
+    width: 14rem;
+
+}
+
+form input[type="submit"] {
+    width: 100%;
+    height: 35px;
+    padding: 8px 16px;
+    margin-top: 32px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    display: block;
+    color: #fff;
+    background-color: #000;
+}
+
+form input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+
+/**--------**/
+
+.boxReverseBanner {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.boxOne {
+    order: 1;
+}
+
+.boxTwo {
+    -webkit-box-shadow: 0px 3px 5px -2px rgba(61, 59, 61, 1);
+    -moz-box-shadow: 0px 3px 5px -2px rgba(61, 59, 61, 1);
+    box-shadow: 0px 3px 5px -2px rgba(61, 59, 61, 1);
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+    margin-bottom: 1rem;
+    align-self: center;
+    width: 90%;
+    background-color: #ffffff;
+    margin-top: -15px;
+   
+
+}
+
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+img {
+    width: 101%;
+    border-radius: 1em 1em 0em 0em;
+
+
+
+}
+
+.contenedor-miembros{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+ .titulo-integrantes{
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 18px;
+}
+
+.memberAdded {
+    background-color: #c5bebe;
+    width: 80%; /* Cambiar el ancho a 100% para centrar */
+    font-size: 16.5px;
+    margin: 8px 0;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+
+    padding: 10px;
+   
+}
+.userIcon {
+    display: flex;
+    padding-right: 10px;
+
+}
+
+.textBanner {
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #A297B6;
+    padding-left: 1rem;
+    font-weight: 700;
+    margin-top: 4px;
+    margin-bottom: 4px;
+
+}
+
+.textBannerActive {
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #674F95;
+    padding-left: 1rem;
+    font-weight: 700;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.textBannerActiveNumber {
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #674F95;
+    padding-left: 1rem;
+    font-weight: 700;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.buttonSubmit {
+    padding: 10px 24px;
+    margin: 2.5rem 0px;
+    font-size: 17px;
+    color: #7c4d86;
+    background-color: transparent;
+    border: 2px solid;
+    border-radius: 8px;
+    cursor: pointer;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border-radius: 10px;
+    border-style: solid;
+    border-top-color: #BB75CB;
+    border-right-color: #D18EBA;
+    border-bottom-color: #E68C8C;
+    border-left-color: #D18EBA;
+    background-color: #f2f2f2;
+    opacity: 0.6;
+   
+
+}
+
+
+
+
+.buttonSubmitActive {
+    padding: 10px 24px;
+    margin: 2.5rem 0px;
+    font-size: 17px;
+    color: #7c4d86;
+    background-color: transparent;
+    border: 2px solid;
+    border-radius: 8px;
+    cursor: pointer;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border-radius: 10px;
+    border-style: solid;
+    border-top-color: #BB75CB;
+    border-right-color: #D18EBA;
+    border-bottom-color: #E68C8C;
+    border-left-color: #D18EBA;
+}
+
+.buttonSubmitActive:hover {
+
+    background-color: #AD8FF3;
+    color: white;
+
+}
+
+.buttonSubmitBox {
+    display: flex;
+    justify-content: center;
+}
+
+.buttonDeleted {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    font-size: 20px;
+    color: #bf1717;
+    display: flex;
+    width: 100%;
+    justify-content: end;
+
+
+}
+
+
+
+
+
+.buttonAdd {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    font-size: 40px;
+    color: #dcb8b8;
+
+}
+
+.buttonAdd:hover {
+    color: #cf9b9b;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 1rem;
+    background-color: #423163;
+    margin: 0px 2rem;
+
+    border-radius: 10px;
+
+}
+
+.infoText {
+    /* width: 15rem; */
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: none;
+    text-align: justify;
+    background: #BBCDD1;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    padding: 0.5rem;
+}
+
+.boton-invitar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+
+
+}
+
+.shared {
+    display: flex;
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    font-size: 17px;
+    padding: 6px 8px;
+    border-radius: .7rem;
+    margin-top: .8rem;
+    font-size: 17px;
+    cursor: pointer;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: #f4f0f0;
+    font-family: 'Inria Sans', sans-serif;
+    align-items: center;
+
+
+
+
+}
+
+.textShared {
+    padding-left: 7px;
+}
+
+.labelDate {
+    width: 93%;
+    color: #3d3c3c;
+}
+
+.inputTarjeta{
+    display: inline-block;
+	width: 90%;
+	cursor: pointer;
+  	padding: 7px 10px;
+  	height: 42px;
+  	outline: 0; 
+  	border: 0;
+	border-radius: 0;
+	background: #f0f0f0;
+	font-size: 1em;
+	color: #5E5E5E;
+	border:2px solid rgba(137, 123, 164, 1);
+    border-radius: 12px;
+    position: relative;
+    transition: all 0.25s ease;
+    margin-top: 10px;
+}
+.inputTarjeta:hover {
+    background: rgba(235, 225, 255, 1);
+}
+
+
+@media only screen and (min-width: 400px) {
+    .containerPage {
+        background-color: #CCC3C3;
+    }
+
+    form {
+        width: 100%;
+
+    }
+
+    form input[type="email"] {
+
+        width: 14rem;
+
+    }
+
+    .formNewVakita {
+
+        width: 95%;
+        margin-left: .4rem;
+    }
+    .halfBackground {
+        padding: 0;
+        width: 93%;
+        margin: 0rem 0%;
+        margin:0 auto;
+    }
+
+    .halfBackground {
+        padding: 0;
+        width: 93%;
+        margin: 0rem 0%;
+        margin:0 auto;
+    }
+    .boxReverseBanner {
+        
+        margin:0 auto;
+        
+    }
+    
+    
+
+}
+
+
+@media only screen and (max-width: 400px) {
+   
+    .halfBackground {
+        padding: 0;
+        width: 105%;
+        
+       .titulo-integrantes{
+           
+            font-size: 17px;
+        }
+    }
+    .boxReverseBanner {
+        
+        margin:0 auto;
+        
+    }
+}
+
+
+@media only screen and (min-width: 980px) {
+
+    .halfBackground {
+        padding: 0;
+        width: 93%;
+        margin: 0rem 0%;
+        margin-left: 1.4rem;
+
+    }
+
+
+
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+
+    .containerPage {
+
+        height: auto ;
+    }
+
+
+
+    .formNewVakita {
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+
+    .halfBackground {
+        width: 55%;
+
+    }
+
+}
+
+.contenedor-miembros{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+h4 {
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 18px;
+}
+
+
+
+
+@media only screen and (min-width: 1199px) {
+
+    .contenedor-miembros{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+ 
+    
+    .memberAdded {
+        background-color: #c5bebe;
+        width: 70%; /* Cambiar el ancho a 100% para centrar */
+        font-size: 16.5px;
+        margin: 8px 0;
+        border-radius: 5px;
+        text-align: center;
+        display: flex;
+    
+        padding: 10px;
+       
+    }
+    
+}
